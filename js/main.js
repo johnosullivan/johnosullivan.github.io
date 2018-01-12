@@ -14,7 +14,7 @@ $(document).ready(function() {
       }
     },
     "color": {
-      "value": "#ED2"
+      "value": "#FFA54B"
     },
     "shape": {
       "type": "circle",
