@@ -14,7 +14,7 @@ $(document).ready(function() {
       }
     },
     "color": {
-      "value": "#32CD32"
+      "value": "#ED2"
     },
     "shape": {
       "type": "circle",
@@ -54,8 +54,8 @@ $(document).ready(function() {
     "line_linked": {
       "enable": true,
       "distance": 200,
-      "color": "#ffffff",
-      "opacity": 0.4,
+      "color": "#fff",
+      "opacity": 0.3,
       "width": 1
     },
     "move": {
@@ -193,12 +193,12 @@ $(document).ready(function() {
 			// $('.typed-text').addClass('animated fadeIn');
 			setTimeout(function(){
 				$('#element').typed({
-					strings: ['<strong>Computer Scientist</strong>','<strong>UI/UX Designer</strong>','<strong>Software Engineer</strong>','<strong>Hacker</strong>'],
+					strings: ['<strong>Computer Scientist</strong>','<strong>UI/UX Designer</strong>','<strong>Software Engineer</strong>','<strong>Problem Solver</strong>'],
 					contentType:'html',
-					typeSpeed: 100,
+					typeSpeed: 90,
 					showCursor: true,
 					backSpeed: 0,
-					backDelay: 1000,
+					backDelay: 800,
 					loop:true,
 				});
 			},500);

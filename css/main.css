@@ -46,7 +46,7 @@ html{
   width: 100%;
   height: 100%;
   z-index: 0;
-  background-color: #182327;
+  background-color: #191919;
   /*background: linear-gradient(#000000,#191919);*/
   /*background-image: url("");
   background-repeat: no-repeat;
@@ -578,7 +578,7 @@ a:hover{
 	width: 16px;
 }
 .skills-sub{
-	background-color: #111;
+	background-color: #191919;
 	color:#fff;
 }
 .about-sub{
