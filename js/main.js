@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
-	if(window.location.hash === '#work/details'){
-		window.location = '#work';
+	if(window.location.hash === '#project/details'){
+		window.location = '#project';
 	}
 
 	particlesJS("particles-js", {
@@ -55,7 +55,7 @@ $(document).ready(function() {
       "enable": true,
       "distance": 200,
       "color": "#fff",
-      "opacity": 0.3,
+      "opacity": 0.4,
       "width": 1
     },
     "move": {
@@ -81,7 +81,7 @@ $(document).ready(function() {
         "mode": "grab"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true
@@ -120,10 +120,10 @@ $(document).ready(function() {
 	var initRight = 0;
 	var anchors = [];
 	if ($(window).width() > 768) {
-		anchors = ['main','work', 'about'];
+		anchors = ['main','project', 'about'];
 		$('.section.skills').remove();
 	} else {
-		anchors = ['main','work', 'skills', 'about'];
+		anchors = ['main','project', 'skills', 'about'];
 	}
 	$('#fullpage').fullpage(
 		{
@@ -195,10 +195,10 @@ $(document).ready(function() {
 				$('#element').typed({
 					strings: ['<strong>Computer Scientist</strong>','<strong>UI/UX Designer</strong>','<strong>Software Engineer</strong>','<strong>Problem Solver</strong>'],
 					contentType:'html',
-					typeSpeed: 90,
+					typeSpeed: 100,
 					showCursor: true,
 					backSpeed: 0,
-					backDelay: 800,
+					backDelay: 1000,
 					loop:true,
 				});
 			},500);
@@ -223,7 +223,7 @@ $(document).ready(function() {
 				$('.details-hidden').hide();
 				$('#' + id).show();
 				setTimeout(function(){
-					window.location = '#work/details';
+					window.location = '#project/details';
 					if($('.showreel') && !$('.showreel.sr' + id).hasClass('flickity-enabled')){
 						$('.showreel.sr' + $(this).attr('data')).flickity({
 							imagesLoaded: true,

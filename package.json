@@ -1,5 +1,5 @@
 {
-  "name": "mohitvirli.github.io",
+  "name": "johnosullivan.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohitvirli/mohitvirli.github.io.git"
+    "url": "git+https://github.com/johnosullivan"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "John O'Sullivan",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mohitvirli/mohitvirli.github.io/issues"
+    "url": "https://github.com/johnosullivan"
   },
-  "homepage": "https://github.com/mohitvirli/mohitvirli.github.io#readme"
+  "homepage": "https://johnosullivan.github.io"
 }

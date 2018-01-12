@@ -173,6 +173,13 @@ nav.navbar-default{
 .work .slide-main .fp-tableCell{
 	vertical-align: middle;
 }
+
+.project{
+	background-color: #fafafa;
+}
+.project .slide-main .fp-tableCell{
+	vertical-align: middle;
+}
 .heading{
 	font-size: 36px;
 	color:#777;
@@ -427,10 +434,10 @@ a:hover{
 	padding: 0!important;
 }
 .white.navbar-nav>li>a:hover, .white.navbar-nav>li>a:focus{
-	color: #fff;
+	color: #333;
 }
 .white.navbar-nav>li>a.active{
-	color:#fff;
+	color:#333;
 }
 .navbar-nav>li>a.active{
 	color:#333;
@@ -578,7 +585,7 @@ a:hover{
 	width: 16px;
 }
 .skills-sub{
-	background-color: #191919;
+	background-color: #111;
 	color:#fff;
 }
 .about-sub{
